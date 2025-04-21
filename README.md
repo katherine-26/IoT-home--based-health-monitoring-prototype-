@@ -1,34 +1,6 @@
 # IoT-Based Home Health Monitoring System
 
-This project is a home-based health monitoring prototype that uses an *ESP32 microcontroller* and sensors to collect real-time environmental data such as temperature , heart rate and oygen saturation. The data is displayed on a web dashboard using [lovable.app](https://lovable.app), providing an easy-to-use interface for remote patient monitoring.
-
-### Code Snippet: ESP32 Sensor Reading
-
-```cpp
-#include "DHT.h"
-#define DHTPIN 15
-#define DHTTYPE DHT22
-
-DHT dht(DHTPIN, DHTTYPE);
-
-void setup() {
-  Serial.begin(115200);
-  dht.begin();
-}
-
-void loop() {
-  float temperature = dht.readTemperature();
-  float humidity = dht.readHumidity();
-
-  if (!isnan(temperature) && !isnan(humidity)) {
-    Serial.print("Temp: ");
-    Serial.print(temperature);
-    Serial.print("°C, Humidity: ");
-    Serial.println(humidity);
-  }
-
-  delay(2000);
-}
+This project is a home-based health monitoring prototype that uses an *ESP32 microcontroller* and sensors to collect real-time environmental data such as temperature , heart rate and oygen saturation. The data is displayed on a web dashboard using [lovable.app](https://lovable.app), providing an easy-to-use interface for remote patient monitoring
 
 
 ## Key Features
