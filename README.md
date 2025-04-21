@@ -1,33 +1,53 @@
 # IoT-Based Home Health Monitoring System
 
-This project demonstrates a simple Internet of Things (IoT) prototype designed to remotely monitor vital signs such as body temperature and heart rate using an ESP32 microcontroller. The system is intended to assist both caregivers and patients by providing continuous, real-time health data through a web dashboard.
+This project is a home-based health monitoring prototype that uses an *ESP32 microcontroller* and sensors to collect real-time environmental data such as temperature and humidity. The data is displayed on a web dashboard using [lovable.app](https://lovable.app), providing an easy-to-use interface for remote patient monitoring.
 
-## Features
+## Key Features
 
-- Simulated data collection using DHT22 and MAX30102 (via Wokwi simulation)
-- Transmission of data from ESP32 to a cloud-hosted web dashboard (lovable.app)
-- Visualization of health data such as heart rate and temperature
-- Alerts and potential for future integration of cloud storage (e.g., Firebase)
+- *ESP32 Microcontroller* for Wi-Fi connectivity
+- *DHT22 Sensor* to monitor temperature and humidity
+- *Web Dashboard* built with [lovable.app](https://lovable.app)
+- Real-time data transmission and visualization
+- Buzzer alert for abnormal readings (optional)
 
-## Video Demonstration
+## Dashboard Screenshots
 
-Watch the demo video for a detailed walkthrough of the system, its components, and how it benefits both patients and caregivers:
+### Real-Time Monitoring View
+![Dashboard 1](screenshot%201.jpg)
 
-[*Watch the video demo here*](https://drive.google.com/file/d/10aoKEo7vGxX4DBWdYWNZWmmFUdVB6ad0/view?usp=drive_link)
+### Sensor Data Visualization
+![Dashboard 2](screenshot%202.jpg)
 
-## Technologies Used
+### Dashboard Overview
+![Dashboard 3](screenshot%203.jpg)
 
-- *ESP32 Microcontroller*
-- *Wokwi Simulator* (for virtual testing)
-- *lovable.app* (custom lightweight cloud dashboard)
-- *HTML/CSS/JavaScript* for the dashboard UI
+## Demo Video
 
-## Future Work
+Watch a live demo of the project:  
+*[Click to view demo](https://drive.google.com/file/d/10aoKEo7vGxX4DBWdYWNZWmmFUdVB6ad0/view?usp=drive_link)*
 
-- Integration with real sensors and hardware
-- Secure cloud-based storage (e.g., Firebase or similar)
-- Enhanced alert system and caregiver feedback mechanism
+## Project Report
+
+You can download the full project report here:  
+[Download IoT Project Report](IoT%20PROJECT%20REPORT.docx)
+
+## Project Structure
+├── README.md ├── IoT PROJECT REPORT.docx ├── screenshot 1.jpg ├── screenshot 2.jpg ├── screenshot 3.jpg └── (Your Arduino/ESP32 code files)
+
+## How to Use
+
+1. Upload the Arduino sketch to your ESP32 board.
+2. Connect the DHT22 sensor and optional buzzer.
+3. Connect the ESP32 to Wi-Fi and configure the data integration with lovable.app.
+4. Open the dashboard to monitor data in real-time.
+
+## Acknowledgments
+
+- Built as part of an academic project in Information Science.
+- Special thanks to lecturers and peers who supported the development and testing process.
 
 ---
 
-This project was developed as part of an academic assignment to explore IoT applications in healthcare.
+Feel free to fork, improve, or use this project for educational purposes.
+
+
