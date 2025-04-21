@@ -53,8 +53,8 @@ void loop() {
     Serial.println(humidity);
   }
 
-  delay(2000);
-}
+  
+
 ## Project Report
 
 You can download the full project report here:  
