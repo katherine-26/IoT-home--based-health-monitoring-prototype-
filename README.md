@@ -8,7 +8,7 @@ This project is a home-based health monitoring prototype that uses an *ESP32 mic
 - *DHT22 Sensor* to monitor temperature and humidity
 - MAX30102 sensor to monitor haert rate and oxygen saturation
 - *Web Dashboard* built with [lovable.app](https://lovable.app)
-- Real-time data transmission and visualization
+- Real-time data collection,transmission and visualization
 - Buzzer alert for abnormal readings (optional)
 
 ## Dashboard Screenshots
