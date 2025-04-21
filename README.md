@@ -32,7 +32,7 @@ You can download the full project report here:
 [Download IoT Project Report](IoT%20PROJECT%20REPORT.docx)
 
 ## Project Structure
-├── README.md ├── IoT PROJECT REPORT.docx ├── screenshot 1.jpg ├── screenshot 2.jpg ├── screenshot 3.jpg └── (Your Arduino/ESP32 code files)
+├── README.md ├── IoT PROJECT REPORT.docx ├── screenshot 1.jpg ├── screenshot 2.jpg ├── screenshot 3.jpg 
 
 ---
 
