@@ -28,6 +28,33 @@ This project is a home-based health monitoring prototype that uses an *ESP32 mic
 Watch a live demo of the project:  
 *[Click to view demo](https://drive.google.com/file/d/10aoKEo7vGxX4DBWdYWNZWmmFUdVB6ad0/view?usp=drive_link)*
 
+### Code Snippet: ESP32 Sensor Reading
+
+```cpp
+#include "DHT.h"
+#define DHTPIN 15
+#define DHTTYPE DHT22
+
+DHT dht(DHTPIN, DHTTYPE);
+
+void setup() {
+  Serial.begin(115200);
+  dht.begin();
+}
+
+void loop() {
+  float temperature = dht.readTemperature();
+  float humidity = dht.readHumidity();
+
+  if (!isnan(temperature) && !isnan(humidity)) {
+    Serial.print("Temp: ");
+    Serial.print(temperature);
+    Serial.print("°C, Humidity: ");
+    Serial.println(humidity);
+  }
+
+  delay(2000);
+}
 ## Project Report
 
 You can download the full project report here:  
