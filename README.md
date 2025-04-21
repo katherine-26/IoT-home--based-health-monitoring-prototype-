@@ -28,6 +28,12 @@ This project is a home-based health monitoring prototype that uses an *ESP32 mic
 Watch a live demo of the project:  
 *[Click to view demo](https://drive.google.com/file/d/10aoKEo7vGxX4DBWdYWNZWmmFUdVB6ad0/view?usp=drive_link)*
 
+
+  ## Project Report
+
+You can download the full project report here:  
+[Download IoT Project Report](IoT%20PROJECT%20REPORT.docx)
+
 ### Code Snippet: ESP32 Sensor Reading
 
 ```cpp
@@ -53,12 +59,8 @@ void loop() {
     Serial.println(humidity);
   }
 
-  
+  delay(2000);
 
-## Project Report
-
-You can download the full project report here:  
-[Download IoT Project Report](IoT%20PROJECT%20REPORT.docx)
 
 ## Project Structure
 ├── README.md ├── IoT PROJECT REPORT.docx ├── screenshot 1.jpg ├── screenshot 2.jpg ├── screenshot 3.jpg 
