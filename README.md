@@ -34,11 +34,11 @@ Watch a live demo of the project:
 You can download the full project report here:  
 [Download IoT Project Report](IoT%20PROJECT%20REPORT.docx)
 
-### Code Snippet: ESP32 Sensor Reading
+### Code Snippet: ESP32 Sensor Reading with Simulated Vitals
 
 ```cpp
 #include "DHT.h"
-#define DHTPIN 15
+#define DHTPIN 5
 #define DHTTYPE DHT22
 
 DHT dht(DHTPIN, DHTTYPE);
@@ -46,20 +46,30 @@ DHT dht(DHTPIN, DHTTYPE);
 void setup() {
   Serial.begin(115200);
   dht.begin();
+  randomSeed(analogRead(0)); // For generating random values
 }
 
 void loop() {
   float temperature = dht.readTemperature();
   float humidity = dht.readHumidity();
 
+  int heartRate = random(60, 100);         // Simulated heart rate in BPM
+  int spo2 = random(95, 100);              // Simulated SpO₂ percentage
+
   if (!isnan(temperature) && !isnan(humidity)) {
     Serial.print("Temp: ");
     Serial.print(temperature);
     Serial.print("°C, Humidity: ");
-    Serial.println(humidity);
+    Serial.print(humidity);
+    Serial.print("%, Heart Rate: ");
+    Serial.print(heartRate);
+    Serial.print(" BPM, SpO2: ");
+    Serial.print(spo2);
+    Serial.println("%");
   }
 
   delay(2000);
+}
 
 
 ## Project Structure
