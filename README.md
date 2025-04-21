@@ -34,18 +34,6 @@ You can download the full project report here:
 ## Project Structure
 ├── README.md ├── IoT PROJECT REPORT.docx ├── screenshot 1.jpg ├── screenshot 2.jpg ├── screenshot 3.jpg └── (Your Arduino/ESP32 code files)
 
-## How to Use
-
-1. Upload the Arduino sketch to your ESP32 board.
-2. Connect the DHT22 sensor and optional buzzer.
-3. Connect the ESP32 to Wi-Fi and configure the data integration with lovable.app.
-4. Open the dashboard to monitor data in real-time.
-
-## Acknowledgments
-
-- Built as part of an academic project in Information Science.
-- Special thanks to lecturers and peers who supported the development and testing process.
-
 ---
 
 Feel free to fork, improve, or use this project for educational purposes.
