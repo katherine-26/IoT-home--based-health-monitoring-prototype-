@@ -30,6 +30,7 @@ void loop() {
   delay(2000);
 }
 
+
 ## Key Features
 
 - *ESP32 Microcontroller* for Wi-Fi connectivity
