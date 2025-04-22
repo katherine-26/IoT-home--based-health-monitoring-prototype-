@@ -12,6 +12,7 @@ This project is a home-based health monitoring prototype that uses an *ESP32 mic
 - Real-time data collection, transmission and visualization
 - Buzzer alert for abnormal readings (optional)
 -simulation tested on [wokwi] an online simulator
+
 **Note**wokwi and lovable app are not connected.wokwi was
   used for simulation, while lovable.app was used to build
   the actual web dashboard for dispalying rea-time data
