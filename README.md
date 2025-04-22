@@ -35,8 +35,6 @@ Watch a live demo of the project:
 *[Click to view demo](https://drive.google.com/file/d/10aoKEo7vGxX4DBWdYWNZWmmFUdVB6ad0/view?usp=drive_link)*
 
 
-  ## Project Report
-
 ## Project Report
 
 Download the full project report here:  
