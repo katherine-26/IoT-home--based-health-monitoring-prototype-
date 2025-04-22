@@ -41,7 +41,9 @@ Watch a live demo of the project:
 
 Download the full project report here:  
 [*Download IoT Project Report (PDF)*](IoT%20PROJECT%20REPORT.pdf)
+
 REFERENCES FOR THE REPORT
+
 Royal Philips. (n.d.). Community Life Centers: Reinventing Primary Healthcare. https://www.philips.com/a-w/about/community-life-centers.html
 
 Afyarekod. (n.d.). Transforming Digital Health Across Africa.  https://afyarekod.com
