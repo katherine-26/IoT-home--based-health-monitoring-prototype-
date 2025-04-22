@@ -41,6 +41,15 @@ Watch a live demo of the project:
 
 Download the full project report here:  
 [*Download IoT Project Report (PDF)*](IoT%20PROJECT%20REPORT.pdf)
+REFERENCES FOR THE REPORT
+Royal Philips. (n.d.). Community Life Centers: Reinventing Primary Healthcare. https://www.philips.com/a-w/about/community-life-centers.html
+
+Afyarekod. (n.d.). Transforming Digital Health Across Africa.  https://afyarekod.com
+
+Intel. (n.d.). Smart Health Initiative: Improving Patient Care with Technology. Retrieved  from https://www.intel.com/content/www/us/en/healthcare-it/smart-health-initiative.html 
+World Health Organization. (2022). Digital Health. Retrieved from https://www.who.int/health-topics/digital-health 
+
+Rghioui, A., & Oumnad, A. (2018). Remote health monitoring using IoT: Review and challenges. Journal of Telecommunication, Electronic and Computer Engineering (JTEC), 10(1-6), 143–146. Retrieved from https://www.researchgate.net/publication/328082049 
 
 ### Code Snippet: ESP32 Sensor Reading with Simulated Vitals
 
