@@ -1,6 +1,6 @@
 # IoT-Based Home Health Monitoring System
 
-This project is a home-based health monitoring prototype that uses an *ESP32 microcontroller* and sensors to collect real-time environmental data such as temperature , heart rate and oygen saturation. The data is displayed on a web dashboard using [lovable.app](https://lovable.app), providing an easy-to-use interface for remote patient monitoring
+This project is a home-based health monitoring prototype that uses an *ESP32 microcontroller* and sensors to collect real-time environmental data such as temperature , heart rate and oxygen saturation. The data is displayed on a web dashboard using [lovable.app](https://lovable.app), providing an easy-to-use interface for remote patient monitoring
 
 
 ## Key Features
@@ -8,9 +8,14 @@ This project is a home-based health monitoring prototype that uses an *ESP32 mic
 - *ESP32 Microcontroller* for Wi-Fi connectivity
 - *DHT22 Sensor* to monitor temperature and humidity
 - MAX30102 sensor to monitor haert rate and oxygen saturation
-- *Web Dashboard* built with [lovable.app](https://lovable.app)
-- Real-time data collection,transmission and visualization
+- *Web Dashboard* built with [lovable.app]
+- Real-time data collection, transmission and visualization
 - Buzzer alert for abnormal readings (optional)
+-simulation tested on [wokwi] an online simulator
+**Note**wokwi and lovable app are not connected.wokwi was
+  used for simulation, while lovable.app was used to build
+  the actual web dashboard for dispalying rea-time data
+  from the ESP32 device.
 
 ## Dashboard Screenshots
 
@@ -32,7 +37,7 @@ Watch a live demo of the project:
   ## Project Report
 
 You can download the full project report here:  
-[Download IoT Project Report](IoT%20PROJECT%20REPORT.docx)
+[Download IoT Project Report (PDF)](docs/IoT_Project_Report.pdf)
 
 ### Code Snippet: ESP32 Sensor Reading with Simulated Vitals
 
