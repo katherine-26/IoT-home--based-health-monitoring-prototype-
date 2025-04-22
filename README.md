@@ -38,7 +38,7 @@ Watch a live demo of the project:
   ## Project Report
 
 You can download the full project report here:  
-[Download IoT Project Report (PDF)](docs/IoT_Project_Report.pdf)
+[Download IoT Project Report (PDF)](IoTPROJECTREPORT.PDF)
 
 ### Code Snippet: ESP32 Sensor Reading with Simulated Vitals
 
