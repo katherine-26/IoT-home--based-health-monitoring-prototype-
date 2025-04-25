@@ -88,3 +88,35 @@ void loop() {
 }
 
 
+import { VitalSign, Alert } from '@/types/health';
+
+export const generateMockVital = (): Omit<VitalSign, 'id' | 'timestamp'> => {
+  const randomValue = Math.random();
+  let temperature = 36.5 + (Math.random() * 1); // Normal range
+  let heartRate = 60 + (Math.random() * 30);    // Normal range
+  let oxygenLevel = 95 + (Math.random() * 5);   // Normal range
+  let isAlert = false;
+  
+  // Only one vital will potentially go out of range
+  if (randomValue > 0.95) {
+    isAlert = true;
+    // Randomly choose which vital to alter (0, 1, or 2)
+    const vitalToAlter = Math.floor(Math.random() * 3);
+    
+    switch (vitalToAlter) {
+      case 0: // Temperature
+        temperature = Math.random() > 0.5 ? 
+          38.5 + (Math.random() * 1.5) :  // High temp
+          35.0 + (Math.random() * 0.5);   // Low temp
+        break;
+      case 1: // Heart rate
+        heartRate = Math.random() > 0.5 ?
+          110 + (Math.random() * 30) :     // High HR
+          40 + (Math.random() * 5);        // Low HR
+        break;
+      case 2: // Oxygen
+        oxygenLevel = 85 + (Math.random() * 5); // Low oxygen
+        break;
+    }
+  }
+  
