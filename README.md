@@ -8,9 +8,13 @@ This project is a home-based health monitoring prototype that uses an *ESP32 mic
 - *ESP32 Microcontroller* for Wi-Fi connectivity
 - *DHT22 Sensor* to monitor temperature and humidity
 - MAX30102 sensor to monitor haert rate and oxygen saturation
+
 - - *Web Dashboard* built with [lovable.app](https://alice-guardian-angel-system.lovable.app/)
+
 - Real-time data collection, transmission and visualization
+
 -simulation tested on [wokwi] an online simulator(https://wokwi.com/projects/428308235390013441)
+
 **Note**wokwi and lovable app are not connected.wokwi was
   used for simulation, while lovable.app was used to build
   the actual web dashboard for dispalying rea-time data
