@@ -9,7 +9,7 @@ This project is a home-based health monitoring prototype that uses an *ESP32 mic
 - *DHT22 Sensor* to monitor temperature and humidity
 - MAX30102 sensor to monitor haert rate and oxygen saturation
 
-- *Web dashboard hosted as a website [lovable.app](https://alice-guardian-angel-system.lovable.app/)
+- *Web application [lovable.app](https://alice-guardian-angel-system.lovable.app/)
 
 - Real-time data collection, transmission and visualization
 
