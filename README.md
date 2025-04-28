@@ -36,7 +36,7 @@ Watch a live demo of the project:
 ## Project Report
 
 Download the full project report here:  
-[*Download IoT Project Report (PDF)*](PROJECT%20REPORT.pdf)
+[*Download Project Report (PDF)*](./PROJECT%20REPORT.pdf)
 
 
 REFERENCES FOR THE REPORT
